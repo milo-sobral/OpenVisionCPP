@@ -7,6 +7,8 @@ The goals of this repository are:
 * 2. Implement some basic Computer Vision algorithms (Edge detection, blurring, rotation...).
 * 3. Add GPU support using CUDA and an Nvidia graphics card to learn how to program with CUDA.
 
+https://www.scratchapixel.com/lessons/digital-imaging/simple-image-manipulations
+
 ## Information
 * Author: Milo Sobral
 * Created: October 29, 2020
