@@ -1,5 +1,7 @@
 # OpenVisionCPP
 
+[![Build Status](https://travis-ci.com/milo-sobral/OpenVisionCPP.svg?branch=main)](https://travis-ci.com/milo-sobral/OpenVisionCPP)
+
 A repository to play around with C++, Computer Vision, and NVIDIA CUDA.
 
 The goals of this repository are:
