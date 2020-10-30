@@ -13,6 +13,7 @@ compiler:
 
 # Build steps
 script: 
+  - mkdir build && cd build
   - cmake .. && make .
 
 after_success:
