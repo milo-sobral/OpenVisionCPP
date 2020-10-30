@@ -1,0 +1,26 @@
+#travis configuration for coverage testing
+language: c
+
+#sudo: false # only for faster builds
+
+install:
+- cd ${TRAVIS_BUILD_DIR}
+
+# install lcov to coveralls conversion + upload tool
+- gem install coveralls-lcov
+
+before_script: 
+- cd ${TRAVIS_BUILD_DIR}
+
+# Compiler selection
+compiler:
+  - clang
+  - gcc
+
+# Build steps
+script: 
+  - cd ${TRAVIS_BUILD_DIR}
+  - cmake .. && make
+
+after_success:
+- cd ${TRAVIS_BUILD_DIR}
